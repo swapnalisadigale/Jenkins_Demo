@@ -43,6 +43,8 @@ int main(int argc, char *argv[])
     struct hostent *server;
     char buffer[256];
     int data;
+    
+    printf( "*************************************ACCEPTANCE TESTS AFTER INTEGRATION*******************************\n\n");
 
     if (argc < 3) {
       // error( const_cast<char *>( "usage myClient2 hostname port\n" ) );
