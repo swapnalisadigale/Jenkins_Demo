@@ -44,6 +44,8 @@ int main(int argc, char *argv[])
     char buffer[256];
     int data;
 
+    printf( "*********************************UNIT TESTS**********************\n\n");
+    
     if (argc < 3) {
       // error( const_cast<char *>( "usage myClient2 hostname port\n" ) );
       printf( "contacting %s on port %d\n", serverIp, portno );
