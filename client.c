@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
       data = getData( sockfd );
       printf("%d ->  %d\n",n, data );
     }
-    sendData( sockfd, -1);
+    sendData( sockfd, -2);
 
     close( sockfd );
     return 0;
